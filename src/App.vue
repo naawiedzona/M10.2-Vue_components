@@ -1,32 +1,25 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <Padre/>
   </div>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+// import aqui
+import Padre from "./components/Padre.vue"
+export default {
+    data () {
+        return {
+            
+        }
+    },
+    components: {
+        Padre
+    }
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
+<!--EL JAVASCRIPT NO FUNCIONA PERO LA RUTA ESTA BIEN, NO ENTIENDO POR QUE-->
+<!--<script src="./scripts/app.js"></script>-->
+<style src="./styles/app.css" scoped></style>
