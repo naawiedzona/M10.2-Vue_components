@@ -5,6 +5,5 @@
     </div>
 </template>
 
-<!--EL JAVASCRIPT NO FUNCIONA PERO LA RUTA ESTA BIEN, NO ENTIENDO POR QUE-->
 <script src="./../scripts/padre.js"></script>
 <style src="./../styles/padre.css" scoped></style>
