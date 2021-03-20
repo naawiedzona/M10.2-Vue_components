@@ -1,4 +1,4 @@
-import Padre from "./components/Padre.vue";
+import Padre from "../components/Padre.vue";
 export default {
   data() {
     return {};
